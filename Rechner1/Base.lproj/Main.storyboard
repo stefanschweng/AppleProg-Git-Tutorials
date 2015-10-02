@@ -61,8 +61,14 @@
                                     <action selector="clear:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9F2-EM-lNd"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOb-Xs-ltn">
-                                <rect key="frame" x="204" y="467" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89U-hk-EEU">
+                                <rect key="frame" x="51" y="486" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cT3-EN-NmX">
+                                <rect key="frame" x="51" y="486" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -72,6 +78,7 @@
                     </view>
                     <connections>
                         <outlet property="ergebnisLabel" destination="Dd4-m7-rv1" id="xZQ-Eb-HUq"/>
+                        <outlet property="hello" destination="cT3-EN-NmX" id="Poe-kq-ljJ"/>
                         <outlet property="zahl1Field" destination="cML-bu-qPN" id="6tm-Xf-xxx"/>
                         <outlet property="zahl2Field" destination="FTK-MV-nGI" id="C5n-sE-IGA"/>
                     </connections>
