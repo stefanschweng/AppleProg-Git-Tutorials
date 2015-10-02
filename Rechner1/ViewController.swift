@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var ergebnisLabel: UILabel!
     @IBOutlet weak var zahl1Field: UITextField!
     @IBOutlet weak var zahl2Field: UITextField!
-    @IBOutlet weak var hello: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
